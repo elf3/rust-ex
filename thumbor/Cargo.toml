@@ -1,0 +1,18 @@
+[package]
+name = "thumbor"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+axum = "0.5.1" # axum 服务器
+anyhow="1" # 错误处理
+base64="0.13" # base64解码
+bytes = "1.1.0" # 字节流处理
+image = "0.24.1" # 图片处理
+lazy_static = "1" # 通过哄初始化静态变量
+lru = "0.7.5" # LRU缓存
+percent-encoding = "2.1.0"
+photon-rs = "0.3.1" # 图片效果
+
